@@ -1,0 +1,95 @@
+{
+    "animales": [
+      {
+        "id": 1,
+        "nombre": "Tigre",
+        "clasificacion": "Mamífero",
+        "habitat": "Bosques y praderas",
+        "dieta": "Carnívoro",
+        "descripcion": "El tigre es uno de los felinos más grandes y fuertes del mundo, conocido por sus rayas distintivas.",
+        "imagen": "https://example.com/images/tigre.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Elefante",
+        "clasificacion": "Mamífero",
+        "habitat": "Sabana y bosque tropical",
+        "dieta": "Herbívoro",
+        "descripcion": "El elefante es el animal terrestre más grande, conocido por sus colmillos largos y trompa flexible.",
+        "imagen": "https://example.com/images/elefante.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Águila",
+        "clasificacion": "Ave",
+        "habitat": "Montañas y bosques",
+        "dieta": "Carnívoro",
+        "descripcion": "Las águilas son aves rapaces poderosas, conocidas por su aguda visión y grandes garras.",
+        "imagen": "https://example.com/images/aguila.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Delfín",
+        "clasificacion": "Mamífero",
+        "habitat": "Océanos",
+        "dieta": "Carnívoro",
+        "descripcion": "El delfín es un mamífero acuático conocido por su inteligencia y sociabilidad.",
+        "imagen": "https://example.com/images/delfin.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Canguro",
+        "clasificacion": "Mamífero",
+        "habitat": "Praderas y bosques australianos",
+        "dieta": "Herbívoro",
+        "descripcion": "El canguro es famoso por su bolsa marsupial y su habilidad para saltar largas distancias.",
+        "imagen": "https://example.com/images/canguro.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Panda",
+        "clasificacion": "Mamífero",
+        "habitat": "Bosques de bambú en China",
+        "dieta": "Herbívoro",
+        "descripcion": "El panda gigante es conocido por su pelaje blanco y negro y su dieta casi exclusiva de bambú.",
+        "imagen": "https://example.com/images/panda.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Pingüino",
+        "clasificacion": "Ave",
+        "habitat": "Regiones polares",
+        "dieta": "Carnívoro",
+        "descripcion": "Los pingüinos son aves que no vuelan y son excelentes nadadores, adaptados al frío extremo.",
+        "imagen": "https://example.com/images/pinguino.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Jirafa",
+        "clasificacion": "Mamífero",
+        "habitat": "Sabana africana",
+        "dieta": "Herbívoro",
+        "descripcion": "La jirafa es el animal terrestre más alto, reconocible por su largo cuello y patrones de manchas.",
+        "imagen": "https://example.com/images/jirafa.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Tortuga",
+        "clasificacion": "Reptil",
+        "habitat": "Diversos ambientes acuáticos y terrestres",
+        "dieta": "Omnívoro",
+        "descripcion": "Las tortugas son reptiles con caparazones duros que pueden vivir tanto en el agua como en la tierra.",
+        "imagen": "https://example.com/images/tortuga.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "León",
+        "clasificacion": "Mamífero",
+        "habitat": "Sabana y praderas",
+        "dieta": "Carnívoro",
+        "descripcion": "El león es conocido como el 'rey de la selva' y vive en grupos llamados manadas.",
+        "imagen": "https://example.com/images/leon.jpg"
+      }
+    ]
+  }
+  
