@@ -1,95 +1,232 @@
 {
-    "animales": [
-      {
-        "id": 1,
-        "nombre": "Tigre",
-        "clasificacion": "Mamífero",
-        "habitat": "Bosques y praderas",
-        "dieta": "Carnívoro",
-        "descripcion": "El tigre es uno de los felinos más grandes y fuertes del mundo, conocido por sus rayas distintivas.",
-        "imagen": "https://example.com/images/tigre.jpg"
-      },
-      {
-        "id": 2,
-        "nombre": "Elefante",
-        "clasificacion": "Mamífero",
-        "habitat": "Sabana y bosque tropical",
-        "dieta": "Herbívoro",
-        "descripcion": "El elefante es el animal terrestre más grande, conocido por sus colmillos largos y trompa flexible.",
-        "imagen": "https://example.com/images/elefante.jpg"
-      },
-      {
-        "id": 3,
-        "nombre": "Águila",
-        "clasificacion": "Ave",
-        "habitat": "Montañas y bosques",
-        "dieta": "Carnívoro",
-        "descripcion": "Las águilas son aves rapaces poderosas, conocidas por su aguda visión y grandes garras.",
-        "imagen": "https://example.com/images/aguila.jpg"
-      },
-      {
-        "id": 4,
-        "nombre": "Delfín",
-        "clasificacion": "Mamífero",
-        "habitat": "Océanos",
-        "dieta": "Carnívoro",
-        "descripcion": "El delfín es un mamífero acuático conocido por su inteligencia y sociabilidad.",
-        "imagen": "https://example.com/images/delfin.jpg"
-      },
-      {
-        "id": 5,
-        "nombre": "Canguro",
-        "clasificacion": "Mamífero",
-        "habitat": "Praderas y bosques australianos",
-        "dieta": "Herbívoro",
-        "descripcion": "El canguro es famoso por su bolsa marsupial y su habilidad para saltar largas distancias.",
-        "imagen": "https://example.com/images/canguro.jpg"
-      },
-      {
-        "id": 6,
-        "nombre": "Panda",
-        "clasificacion": "Mamífero",
-        "habitat": "Bosques de bambú en China",
-        "dieta": "Herbívoro",
-        "descripcion": "El panda gigante es conocido por su pelaje blanco y negro y su dieta casi exclusiva de bambú.",
-        "imagen": "https://example.com/images/panda.jpg"
-      },
-      {
-        "id": 7,
-        "nombre": "Pingüino",
-        "clasificacion": "Ave",
-        "habitat": "Regiones polares",
-        "dieta": "Carnívoro",
-        "descripcion": "Los pingüinos son aves que no vuelan y son excelentes nadadores, adaptados al frío extremo.",
-        "imagen": "https://example.com/images/pinguino.jpg"
-      },
-      {
-        "id": 8,
-        "nombre": "Jirafa",
-        "clasificacion": "Mamífero",
-        "habitat": "Sabana africana",
-        "dieta": "Herbívoro",
-        "descripcion": "La jirafa es el animal terrestre más alto, reconocible por su largo cuello y patrones de manchas.",
-        "imagen": "https://example.com/images/jirafa.jpg"
-      },
-      {
-        "id": 9,
-        "nombre": "Tortuga",
-        "clasificacion": "Reptil",
-        "habitat": "Diversos ambientes acuáticos y terrestres",
-        "dieta": "Omnívoro",
-        "descripcion": "Las tortugas son reptiles con caparazones duros que pueden vivir tanto en el agua como en la tierra.",
-        "imagen": "https://example.com/images/tortuga.jpg"
-      },
-      {
-        "id": 10,
-        "nombre": "León",
-        "clasificacion": "Mamífero",
-        "habitat": "Sabana y praderas",
-        "dieta": "Carnívoro",
-        "descripcion": "El león es conocido como el 'rey de la selva' y vive en grupos llamados manadas.",
-        "imagen": "https://example.com/images/leon.jpg"
-      }
-    ]
-  }
-  
+  "vertebrados": [
+    {
+      "clase": "Mamíferos",
+      "descripcion": "Animales de sangre caliente con pelaje y glándulas mamarias.",
+      "ejemplos": [
+        {
+          "id": 1,
+          "nombre_comun": "Humano",
+          "nombre_cientifico": "Homo sapiens",
+          "familia": "Hominidae",
+          "habitat": "Ciudades, áreas rurales y diversos entornos naturales",
+          "dieta": "Omnívora",
+          "descripcion": "Especie de primate caracterizada por su inteligencia y capacidad de modificar el entorno.",
+          "imagen": "https://example.com/humano.jpg"
+        },
+        {
+          "id": 2,
+          "nombre_comun": "León",
+          "nombre_cientifico": "Panthera leo",
+          "familia": "Felidae",
+          "habitat": "Sabanas y praderas de África subsahariana",
+          "dieta": "Carnívora",
+          "descripcion": "Felino de gran tamaño conocido como el 'rey de la selva', con una distintiva melena en los machos.",
+          "imagen": "https://example.com/leon.jpg"
+        },
+        {
+          "id": 3,
+          "nombre_comun": "Elefante africano",
+          "nombre_cientifico": "Loxodonta africana",
+          "familia": "Elephantidae",
+          "habitat": "Bosques, sabanas y desiertos de África",
+          "dieta": "Herbívora",
+          "descripcion": "El mamífero terrestre más grande, conocido por sus enormes orejas y su trompa funcional.",
+          "imagen": "https://example.com/elefante_africano.jpg"
+        },
+        {
+          "id": 4,
+          "nombre_comun": "Oso polar",
+          "nombre_cientifico": "Ursus maritimus",
+          "familia": "Ursidae",
+          "habitat": "Regiones árticas y heladas",
+          "dieta": "Carnívora",
+          "descripcion": "Mamífero adaptado a las bajas temperaturas, con pelaje blanco y grueso que le permite cazar en el hielo.",
+          "imagen": "https://example.com/oso_polar.jpg"
+        },
+        {
+          "id": 5,
+          "nombre_comun": "Ballena azul",
+          "nombre_cientifico": "Balaenoptera musculus",
+          "familia": "Balaenopteridae",
+          "habitat": "Océanos de todo el mundo",
+          "dieta": "Carnívora (zooplancton, especialmente kril)",
+          "descripcion": "El animal más grande conocido en la Tierra, que puede alcanzar hasta 30 metros de longitud.",
+          "imagen": "https://example.com/ballena_azul.jpg"
+        },
+        {
+          "id": 6,
+          "nombre_comun": "Gorila de montaña",
+          "nombre_cientifico": "Gorilla beringei beringei",
+          "familia": "Hominidae",
+          "habitat": "Bosques montañosos de África central",
+          "dieta": "Herbívora",
+          "descripcion": "Gran primate que vive en grupos familiares, conocido por su fuerza y vida social compleja.",
+          "imagen": "https://example.com/gorila_montana.jpg"
+        },
+        {
+          "id": 7,
+          "nombre_comun": "Canguro rojo",
+          "nombre_cientifico": "Macropus rufus",
+          "familia": "Macropodidae",
+          "habitat": "Zonas áridas y semiáridas de Australia",
+          "dieta": "Herbívora",
+          "descripcion": "Marsupial más grande de Australia, famoso por sus saltos y bolsa en la que cría a sus crías.",
+          "imagen": "https://example.com/canguro_rojo.jpg"
+        },
+        {
+          "id": 8,
+          "nombre_comun": "Perro",
+          "nombre_cientifico": "Canis lupus familiaris",
+          "familia": "Canidae",
+          "habitat": "Entornos domésticos y urbanos en todo el mundo",
+          "dieta": "Omnívora",
+          "descripcion": "El animal doméstico más común, conocido por su lealtad y variedad de razas.",
+          "imagen": "https://example.com/perro.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Aves",
+      "descripcion": "Animales de sangre caliente, con plumas, alas y la mayoría pueden volar.",
+      "ejemplos": [
+        {
+          "id": 1,
+          "nombre_comun": "Águila",
+          "nombre_cientifico": "Aquila chrysaetos",
+          "familia": "Accipitridae",
+          "habitat": "Montañas, praderas y regiones abiertas",
+          "dieta": "Carnívora",
+          "descripcion": "Ave rapaz de gran tamaño y excelente visión, conocida por su capacidad para cazar presas grandes.",
+          "imagen": "https://example.com/aguila.jpg"
+        },
+        {
+          "id": 2,
+          "nombre_comun": "Pingüino emperador",
+          "nombre_cientifico": "Aptenodytes forsteri",
+          "familia": "Spheniscidae",
+          "habitat": "Regiones antárticas",
+          "dieta": "Carnívora (peces, calamares y kril)",
+          "descripcion": "La especie de pingüino más grande, adaptada a climas extremadamente fríos, famosa por sus colonias de cría.",
+          "imagen": "https://example.com/pinguino.jpg"
+        },
+        {
+          "id": 3,
+          "nombre_comun": "Colibrí",
+          "nombre_cientifico": "Trochilidae",
+          "familia": "Trochilidae",
+          "habitat": "Bosques, jardines y áreas con flores en América",
+          "dieta": "Nectarívora (néctar de flores)",
+          "descripcion": "Ave pequeña conocida por su rápido aleteo y capacidad para flotar en el aire mientras se alimenta de néctar.",
+          "imagen": "https://example.com/colibri.jpg"
+        },
+        {
+          "id": 4,
+          "nombre_comun": "Búho real",
+          "nombre_cientifico": "Bubo bubo",
+          "familia": "Strigidae",
+          "habitat": "Bosques, montañas y zonas abiertas de Eurasia",
+          "dieta": "Carnívora",
+          "descripcion": "Una de las especies de búhos más grandes, con grandes ojos y excelente visión nocturna.",
+          "imagen": "https://example.com/buho_real.jpg"
+        },
+        {
+          "id": 5,
+          "nombre_comun": "Pato mallard",
+          "nombre_cientifico": "Anas platyrhynchos",
+          "familia": "Anatidae",
+          "habitat": "Humedales, ríos y lagos de todo el mundo",
+          "dieta": "Omnívora",
+          "descripcion": "Especie de pato muy común, conocido por el color verde brillante de la cabeza en los machos.",
+          "imagen": "https://example.com/pato_mallard.jpg"
+        },
+        {
+          "id": 6,
+          "nombre_comun": "Flamenco",
+          "nombre_cientifico": "Phoenicopterus roseus",
+          "familia": "Phoenicopteridae",
+          "habitat": "Lagos y lagunas salinas",
+          "dieta": "Omnívora (zooplancton, algas)",
+          "descripcion": "Ave de patas largas y color rosado que se alimenta filtrando agua y lodo para capturar pequeñas presas.",
+          "imagen": "https://example.com/flamenco.jpg"
+        },
+        {
+          "id": 7,
+          "nombre_comun": "Cóndor andino",
+          "nombre_cientifico": "Vultur gryphus",
+          "familia": "Cathartidae",
+          "habitat": "Regiones montañosas de América del Sur",
+          "dieta": "Carnívora (carroñera)",
+          "descripcion": "Ave voladora de gran envergadura, conocida como símbolo de los Andes, que se alimenta de animales muertos.",
+          "imagen": "https://example.com/condor_andino.jpg"
+        },
+        {
+          "id": 8,
+          "nombre_comun": "Loro amazónico",
+          "nombre_cientifico": "Amazona aestiva",
+          "familia": "Psittacidae",
+          "habitat": "Bosques tropicales y subtropicales de América del Sur",
+          "dieta": "Herbívora (frutas, semillas)",
+          "descripcion": "Ave colorida y social, conocida por su habilidad para imitar sonidos y palabras.",
+          "imagen": "https://example.com/loro_amazonico.jpg"
+        }
+      ]
+    },    
+    {
+      "clase": "Reptiles",
+      "descripcion": "Animales de sangre fría con escamas y que ponen huevos en su mayoría.",
+      "ejemplos": [
+        {
+          "nombre_comun": "Serpiente",
+          "nombre_cientifico": "Python regius",
+          "familia": "Pythonidae",
+          "imagen": "https://example.com/serpiente.jpg"
+        },
+        {
+          "nombre_comun": "Cocodrilo",
+          "nombre_cientifico": "Crocodylus niloticus",
+          "familia": "Crocodylidae",
+          "imagen": "https://example.com/cocodrilo.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Anfibios",
+      "descripcion": "Animales de sangre fría que suelen vivir en agua y tierra durante su vida.",
+      "ejemplos": [
+        {
+          "nombre_comun": "Rana",
+          "nombre_cientifico": "Lithobates catesbeianus",
+          "familia": "Ranidae",
+          "imagen": "https://example.com/rana.jpg"
+        },
+        {
+          "nombre_comun": "Salamandra",
+          "nombre_cientifico": "Ambystoma mexicanum",
+          "familia": "Ambystomatidae",
+          "imagen": "https://example.com/salamandra.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Peces",
+      "descripcion": "Animales acuáticos con branquias. Incluye peces óseos y cartilaginosos.",
+      "ejemplos": [
+        {
+          "nombre_comun": "Pez payaso",
+          "nombre_cientifico": "Amphiprioninae",
+          "familia": "Pomacentridae",
+          "tipo": "Óseos",
+          "imagen": "https://example.com/pez_payaso.jpg"
+        },
+        {
+          "nombre_comun": "Tiburón blanco",
+          "nombre_cientifico": "Carcharodon carcharias",
+          "familia": "Lamnidae",
+          "tipo": "Cartilaginosos",
+          "imagen": "https://example.com/tiburon.jpg"
+        }
+      ]
+    }
+  ]
+}
