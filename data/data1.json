@@ -12,6 +12,7 @@
           "habitat": "Ciudades, áreas rurales y diversos entornos naturales",
           "dieta": "Omnívora",
           "descripcion": "Especie de primate caracterizada por su inteligencia y capacidad de modificar el entorno.",
+          "peligro_extincion": "No en peligro",
           "imagen": "https://example.com/humano.jpg"
         },
         {
@@ -22,6 +23,7 @@
           "habitat": "Sabanas y praderas de África subsahariana",
           "dieta": "Carnívora",
           "descripcion": "Felino de gran tamaño conocido como el 'rey de la selva', con una distintiva melena en los machos.",
+          "peligro_extincion": "Vulnerable",
           "imagen": "https://example.com/leon.jpg"
         },
         {
@@ -32,6 +34,7 @@
           "habitat": "Bosques, sabanas y desiertos de África",
           "dieta": "Herbívora",
           "descripcion": "El mamífero terrestre más grande, conocido por sus enormes orejas y su trompa funcional.",
+          "peligro_extincion": "En peligro",
           "imagen": "https://example.com/elefante_africano.jpg"
         },
         {
@@ -42,6 +45,7 @@
           "habitat": "Regiones árticas y heladas",
           "dieta": "Carnívora",
           "descripcion": "Mamífero adaptado a las bajas temperaturas, con pelaje blanco y grueso que le permite cazar en el hielo.",
+          "peligro_extincion": "Vulnerable",
           "imagen": "https://example.com/oso_polar.jpg"
         },
         {
@@ -52,6 +56,7 @@
           "habitat": "Océanos de todo el mundo",
           "dieta": "Carnívora (zooplancton, especialmente kril)",
           "descripcion": "El animal más grande conocido en la Tierra, que puede alcanzar hasta 30 metros de longitud.",
+          "peligro_extincion": "En peligro crítico",
           "imagen": "https://example.com/ballena_azul.jpg"
         },
         {
@@ -62,6 +67,7 @@
           "habitat": "Bosques montañosos de África central",
           "dieta": "Herbívora",
           "descripcion": "Gran primate que vive en grupos familiares, conocido por su fuerza y vida social compleja.",
+          "peligro_extincion": "En peligro",
           "imagen": "https://example.com/gorila_montana.jpg"
         },
         {
@@ -72,6 +78,7 @@
           "habitat": "Zonas áridas y semiáridas de Australia",
           "dieta": "Herbívora",
           "descripcion": "Marsupial más grande de Australia, famoso por sus saltos y bolsa en la que cría a sus crías.",
+          "peligro_extincion": "No en peligro",
           "imagen": "https://example.com/canguro_rojo.jpg"
         },
         {
@@ -82,6 +89,7 @@
           "habitat": "Entornos domésticos y urbanos en todo el mundo",
           "dieta": "Omnívora",
           "descripcion": "El animal doméstico más común, conocido por su lealtad y variedad de razas.",
+          "peligro_extincion": "No en peligro",
           "imagen": "https://example.com/perro.jpg"
         }
       ]
@@ -98,6 +106,7 @@
           "habitat": "Montañas, praderas y regiones abiertas",
           "dieta": "Carnívora",
           "descripcion": "Ave rapaz de gran tamaño y excelente visión, conocida por su capacidad para cazar presas grandes.",
+          "peligro_extincion": "Preocupación menor",
           "imagen": "https://example.com/aguila.jpg"
         },
         {
@@ -108,6 +117,7 @@
           "habitat": "Regiones antárticas",
           "dieta": "Carnívora (peces, calamares y kril)",
           "descripcion": "La especie de pingüino más grande, adaptada a climas extremadamente fríos, famosa por sus colonias de cría.",
+          "peligro_extincion": "Casi amenazada",
           "imagen": "https://example.com/pinguino.jpg"
         },
         {
@@ -118,6 +128,7 @@
           "habitat": "Bosques, jardines y áreas con flores en América",
           "dieta": "Nectarívora (néctar de flores)",
           "descripcion": "Ave pequeña conocida por su rápido aleteo y capacidad para flotar en el aire mientras se alimenta de néctar.",
+          "peligro_extincion": "No en peligro",
           "imagen": "https://example.com/colibri.jpg"
         },
         {
@@ -128,6 +139,7 @@
           "habitat": "Bosques, montañas y zonas abiertas de Eurasia",
           "dieta": "Carnívora",
           "descripcion": "Una de las especies de búhos más grandes, con grandes ojos y excelente visión nocturna.",
+          "peligro_extincion": "Preocupación menor",
           "imagen": "https://example.com/buho_real.jpg"
         },
         {
@@ -138,95 +150,94 @@
           "habitat": "Humedales, ríos y lagos de todo el mundo",
           "dieta": "Omnívora",
           "descripcion": "Especie de pato muy común, conocido por el color verde brillante de la cabeza en los machos.",
+          "peligro_extincion": "No en peligro",
           "imagen": "https://example.com/pato_mallard.jpg"
-        },
-        {
-          "id": 6,
-          "nombre_comun": "Flamenco",
-          "nombre_cientifico": "Phoenicopterus roseus",
-          "familia": "Phoenicopteridae",
-          "habitat": "Lagos y lagunas salinas",
-          "dieta": "Omnívora (zooplancton, algas)",
-          "descripcion": "Ave de patas largas y color rosado que se alimenta filtrando agua y lodo para capturar pequeñas presas.",
-          "imagen": "https://example.com/flamenco.jpg"
-        },
-        {
-          "id": 7,
-          "nombre_comun": "Cóndor andino",
-          "nombre_cientifico": "Vultur gryphus",
-          "familia": "Cathartidae",
-          "habitat": "Regiones montañosas de América del Sur",
-          "dieta": "Carnívora (carroñera)",
-          "descripcion": "Ave voladora de gran envergadura, conocida como símbolo de los Andes, que se alimenta de animales muertos.",
-          "imagen": "https://example.com/condor_andino.jpg"
-        },
-        {
-          "id": 8,
-          "nombre_comun": "Loro amazónico",
-          "nombre_cientifico": "Amazona aestiva",
-          "familia": "Psittacidae",
-          "habitat": "Bosques tropicales y subtropicales de América del Sur",
-          "dieta": "Herbívora (frutas, semillas)",
-          "descripcion": "Ave colorida y social, conocida por su habilidad para imitar sonidos y palabras.",
-          "imagen": "https://example.com/loro_amazonico.jpg"
-        }
-      ]
-    },    
-    {
-      "clase": "Reptiles",
-      "descripcion": "Animales de sangre fría con escamas y que ponen huevos en su mayoría.",
-      "ejemplos": [
-        {
-          "nombre_comun": "Serpiente",
-          "nombre_cientifico": "Python regius",
-          "familia": "Pythonidae",
-          "imagen": "https://example.com/serpiente.jpg"
-        },
-        {
-          "nombre_comun": "Cocodrilo",
-          "nombre_cientifico": "Crocodylus niloticus",
-          "familia": "Crocodylidae",
-          "imagen": "https://example.com/cocodrilo.jpg"
         }
       ]
     },
     {
       "clase": "Anfibios",
-      "descripcion": "Animales de sangre fría que suelen vivir en agua y tierra durante su vida.",
+      "descripcion": "Animales vertebrados de sangre fría que pueden vivir tanto en agua como en tierra durante diferentes etapas de su vida.",
       "ejemplos": [
         {
-          "nombre_comun": "Rana",
-          "nombre_cientifico": "Lithobates catesbeianus",
-          "familia": "Ranidae",
-          "imagen": "https://example.com/rana.jpg"
+          "id": 1,
+          "nombre_comun": "Rana de ojos rojos",
+          "nombre_cientifico": "Agalychnis callidryas",
+          "familia": "Hylidae",
+          "habitat": "Bosques tropicales de América Central y del Sur",
+          "dieta": "Insectívora",
+          "descripcion": "Rana conocida por sus ojos grandes y rojos, así como su capacidad para saltar largas distancias.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/rana_ojos_rojos.jpg"
         },
         {
-          "nombre_comun": "Salamandra",
-          "nombre_cientifico": "Ambystoma mexicanum",
-          "familia": "Ambystomatidae",
-          "imagen": "https://example.com/salamandra.jpg"
+          "id": 2,
+          "nombre_comun": "Salamandra gigante china",
+          "nombre_cientifico": "Andrias davidianus",
+          "familia": "Cryptobranchidae",
+          "habitat": "Ríos y arroyos de agua fría en China",
+          "dieta": "Carnívora",
+          "descripcion": "Es el anfibio más grande del mundo, llegando a medir hasta 1,8 metros.",
+          "peligro_extincion": "En peligro crítico",
+          "imagen": "https://example.com/salamandra_gigante.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Reptiles",
+      "descripcion": "Animales vertebrados de sangre fría que tienen escamas y suelen poner huevos con cáscara dura.",
+      "ejemplos": [
+        {
+          "id": 1,
+          "nombre_comun": "Cocodrilo del Nilo",
+          "nombre_cientifico": "Crocodylus niloticus",
+          "familia": "Crocodylidae",
+          "habitat": "Ríos y lagos de África",
+          "dieta": "Carnívora",
+          "descripcion": "Reptil grande y peligroso conocido por su fuerza y comportamiento agresivo.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/cocodrilo_nilo.jpg"
+        },
+        {
+          "id": 2,
+          "nombre_comun": "Iguana verde",
+          "nombre_cientifico": "Iguana iguana",
+          "familia": "Iguanidae",
+          "habitat": "Bosques tropicales de América Central y del Sur",
+          "dieta": "Herbívora",
+          "descripcion": "Reptil arbóreo de color verde que puede alcanzar hasta 2 metros de longitud.",
+          "peligro_extincion": "No amenazado",
+          "imagen": "https://example.com/iguana_verde.jpg"
         }
       ]
     },
     {
       "clase": "Peces",
-      "descripcion": "Animales acuáticos con branquias. Incluye peces óseos y cartilaginosos.",
+      "descripcion": "Animales acuáticos vertebrados, generalmente de sangre fría, que respiran a través de branquias y poseen aletas para nadar.",
       "ejemplos": [
         {
+          "id": 1,
           "nombre_comun": "Pez payaso",
           "nombre_cientifico": "Amphiprioninae",
           "familia": "Pomacentridae",
-          "tipo": "Óseos",
+          "habitat": "Arrecifes de coral del Indo-Pacífico",
+          "dieta": "Omnívora",
+          "descripcion": "Pez de colores brillantes que vive en simbiosis con anémonas de mar.",
+          "peligro_extincion": "Preocupación menor",
           "imagen": "https://example.com/pez_payaso.jpg"
         },
         {
+          "id": 2,
           "nombre_comun": "Tiburón blanco",
           "nombre_cientifico": "Carcharodon carcharias",
           "familia": "Lamnidae",
-          "tipo": "Cartilaginosos",
-          "imagen": "https://example.com/tiburon.jpg"
+          "habitat": "Océanos templados y tropicales",
+          "dieta": "Carnívora",
+          "descripcion": "Depredador marino conocido por su tamaño y velocidad.",
+          "peligro_extincion": "Vulnerable",
+          "imagen": "https://example.com/tiburon_blanco.jpg"
         }
       ]
-    }
+    }    
   ]
 }
