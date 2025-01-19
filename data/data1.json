@@ -5,6 +5,7 @@
       "descripcion": "Animales de sangre caliente con pelaje y glándulas mamarias.",
       "ejemplos": [
         {
+          "id_general":1,
           "id": 1,
           "nombre_comun": "Humano",
           "nombre_cientifico": "Homo sapiens",
@@ -16,6 +17,7 @@
           "imagen": "https://example.com/humano.jpg"
         },
         {
+          "id_general":2,
           "id": 2,
           "nombre_comun": "León",
           "nombre_cientifico": "Panthera leo",
@@ -27,6 +29,7 @@
           "imagen": "https://example.com/leon.jpg"
         },
         {
+          "id_general":3,
           "id": 3,
           "nombre_comun": "Elefante africano",
           "nombre_cientifico": "Loxodonta africana",
@@ -38,6 +41,7 @@
           "imagen": "https://example.com/elefante_africano.jpg"
         },
         {
+          "id_general":4,
           "id": 4,
           "nombre_comun": "Oso polar",
           "nombre_cientifico": "Ursus maritimus",
@@ -49,6 +53,7 @@
           "imagen": "https://example.com/oso_polar.jpg"
         },
         {
+          "id_general":5,
           "id": 5,
           "nombre_comun": "Ballena azul",
           "nombre_cientifico": "Balaenoptera musculus",
@@ -60,6 +65,7 @@
           "imagen": "https://example.com/ballena_azul.jpg"
         },
         {
+          "id_general":6,
           "id": 6,
           "nombre_comun": "Gorila de montaña",
           "nombre_cientifico": "Gorilla beringei beringei",
@@ -71,6 +77,7 @@
           "imagen": "https://example.com/gorila_montana.jpg"
         },
         {
+          "id_general":7,
           "id": 7,
           "nombre_comun": "Canguro rojo",
           "nombre_cientifico": "Macropus rufus",
@@ -82,6 +89,7 @@
           "imagen": "https://example.com/canguro_rojo.jpg"
         },
         {
+          "id_general":8,
           "id": 8,
           "nombre_comun": "Perro",
           "nombre_cientifico": "Canis lupus familiaris",
@@ -99,6 +107,7 @@
       "descripcion": "Animales de sangre caliente, con plumas, alas y la mayoría pueden volar.",
       "ejemplos": [
         {
+          "id_general":9,
           "id": 1,
           "nombre_comun": "Águila",
           "nombre_cientifico": "Aquila chrysaetos",
@@ -110,6 +119,7 @@
           "imagen": "https://example.com/aguila.jpg"
         },
         {
+          "id_general":10,
           "id": 2,
           "nombre_comun": "Pingüino emperador",
           "nombre_cientifico": "Aptenodytes forsteri",
@@ -121,6 +131,7 @@
           "imagen": "https://example.com/pinguino.jpg"
         },
         {
+          "id_general":11,
           "id": 3,
           "nombre_comun": "Colibrí",
           "nombre_cientifico": "Trochilidae",
@@ -132,6 +143,7 @@
           "imagen": "https://example.com/colibri.jpg"
         },
         {
+          "id_general":12,
           "id": 4,
           "nombre_comun": "Búho real",
           "nombre_cientifico": "Bubo bubo",
@@ -143,6 +155,7 @@
           "imagen": "https://example.com/buho_real.jpg"
         },
         {
+          "id_general":13,
           "id": 5,
           "nombre_comun": "Pato mallard",
           "nombre_cientifico": "Anas platyrhynchos",
@@ -152,6 +165,78 @@
           "descripcion": "Especie de pato muy común, conocido por el color verde brillante de la cabeza en los machos.",
           "peligro_extincion": "No en peligro",
           "imagen": "https://example.com/pato_mallard.jpg"
+        },
+        {
+          "id_general":14,
+          "id": 6,
+          "nombre_comun": "Cacatúa de cresta amarilla",
+          "nombre_cientifico": "Cacatua galerita",
+          "familia": "Cacatuidae",
+          "habitat": "Bosques y sabanas de Australia e Indonesia",
+          "dieta": "Omnívora",
+          "descripcion": "Ave conocida por su distintiva cresta amarilla y su gran inteligencia.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/cacatua_cresta_amarilla.jpg"
+        },
+        {
+          "id_general":15,
+          "id": 7,
+          "nombre_comun": "Quetzal resplandeciente",
+          "nombre_cientifico": "Pharomachrus mocinno",
+          "familia": "Trogonidae",
+          "habitat": "Bosques nublados de América Central",
+          "dieta": "Frugívora",
+          "descripcion": "Ave de colores brillantes, símbolo de libertad en la cultura mesoamericana.",
+          "peligro_extincion": "Casi amenazado",
+          "imagen": "https://example.com/quetzal_resplandeciente.jpg"
+        },
+        {
+          "id_general":16,
+          "id": 8,
+          "nombre_comun": "Ave del paraíso magnífica",
+          "nombre_cientifico": "Cicinnurus magnificus",
+          "familia": "Paradisaeidae",
+          "habitat": "Bosques tropicales de Nueva Guinea",
+          "dieta": "Frugívora",
+          "descripcion": "Famosa por sus elaborados rituales de apareamiento y su plumaje único.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/ave_paraiso.jpg"
+        },
+        {
+          "id_general":17,
+          "id": 9,
+          "nombre_comun": "Casuario austral",
+          "nombre_cientifico": "Casuarius casuarius",
+          "familia": "Casuariidae",
+          "habitat": "Bosques tropicales de Australia y Nueva Guinea",
+          "dieta": "Frugívora",
+          "descripcion": "Gran ave no voladora con un casco óseo distintivo en la cabeza.",
+          "peligro_extincion": "Vulnerable",
+          "imagen": "https://example.com/casuario_austral.jpg"
+        },
+        {
+          "id_general":18,
+          "id": 10,
+          "nombre_comun": "Tucán toco",
+          "nombre_cientifico": "Ramphastos toco",
+          "familia": "Ramphastidae",
+          "habitat": "Selvas tropicales de América del Sur",
+          "dieta": "Frugívora",
+          "descripcion": "Ave conocida por su enorme pico de colores brillantes.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/tucan_toco.jpg"
+        },
+        {
+          "id_general":19,
+          "id": 11,
+          "nombre_comun": "Harpía",
+          "nombre_cientifico": "Harpia harpyja",
+          "familia": "Accipitridae",
+          "habitat": "Selvas tropicales de América Central y del Sur",
+          "dieta": "Carnívora",
+          "descripcion": "Una de las águilas más grandes del mundo, con garras increíblemente fuertes.",
+          "peligro_extincion": "Casi amenazado",
+          "imagen": "https://example.com/harpia.jpg"
         }
       ]
     },
@@ -160,6 +245,7 @@
       "descripcion": "Animales vertebrados de sangre fría que pueden vivir tanto en agua como en tierra durante diferentes etapas de su vida.",
       "ejemplos": [
         {
+          "id_general":20,
           "id": 1,
           "nombre_comun": "Rana de ojos rojos",
           "nombre_cientifico": "Agalychnis callidryas",
@@ -171,6 +257,7 @@
           "imagen": "https://example.com/rana_ojos_rojos.jpg"
         },
         {
+          "id_general":21,
           "id": 2,
           "nombre_comun": "Salamandra gigante china",
           "nombre_cientifico": "Andrias davidianus",
@@ -180,6 +267,66 @@
           "descripcion": "Es el anfibio más grande del mundo, llegando a medir hasta 1,8 metros.",
           "peligro_extincion": "En peligro crítico",
           "imagen": "https://example.com/salamandra_gigante.jpg"
+        },
+        {
+          "id_general":22,
+          "id": 3,
+          "nombre_comun": "Rana flecha venenosa",
+          "nombre_cientifico": "Dendrobates tinctorius",
+          "familia": "Dendrobatidae",
+          "habitat": "Selvas tropicales de América Central y del Sur",
+          "dieta": "Insectívora",
+          "descripcion": "Pequeña rana conocida por sus vivos colores y su veneno tóxico.",
+          "peligro_extincion": "No amenazada",
+          "imagen": "https://example.com/rana_flecha_venenosa.jpg"
+        },
+        {
+          "id_general":23,
+          "id": 4,
+          "nombre_comun": "Axolote mexicano",
+          "nombre_cientifico": "Ambystoma mexicanum",
+          "familia": "Ambystomatidae",
+          "habitat": "Lagos y canales de México",
+          "dieta": "Carnívora",
+          "descripcion": "Famoso por su capacidad de regenerar extremidades y por permanecer en estado larval.",
+          "peligro_extincion": "En peligro crítico",
+          "imagen": "https://example.com/axolote_mexicano.jpg"
+        },
+        {
+          "id_general":24,
+          "id": 5,
+          "nombre_comun": "Cecilia del Congo",
+          "nombre_cientifico": "Herpele squalostoma",
+          "familia": "Herpelidae",
+          "habitat": "Suelo húmedo de las selvas del África Central",
+          "dieta": "Insectívora",
+          "descripcion": "Anfibio sin extremidades, parecido a una lombriz o serpiente.",
+          "peligro_extincion": "No evaluada",
+          "imagen": "https://example.com/cecilia_congo.jpg"
+        },
+        {
+          "id_general":25,
+          "id": 6,
+          "nombre_comun": "Sapo partero común",
+          "nombre_cientifico": "Alytes obstetricans",
+          "familia": "Alytidae",
+          "habitat": "Bosques y áreas rocosas de Europa occidental",
+          "dieta": "Insectívora",
+          "descripcion": "Los machos cuidan de los huevos, llevándolos enrollados en sus patas traseras.",
+          "peligro_extincion": "Casi amenazado",
+          "imagen": "https://example.com/sapo_partero_comun.jpg"
+        },
+        {
+          "id_general":26,
+          "id": 7,
+          "nombre_comun": "Tritón crestado",
+          "nombre_cientifico": "Triturus cristatus",
+          "familia": "Salamandridae",
+          "habitat": "Charcas y estanques de Europa",
+          "dieta": "Carnívora",
+          "descripcion": "Salamandra con cresta dorsal prominente en los machos durante la época de apareamiento.",
+          "peligro_extincion": "Vulnerable",
+          "imagen": "https://example.com/triton_crestado.jpg"
         }
       ]
     },
@@ -188,6 +335,7 @@
       "descripcion": "Animales vertebrados de sangre fría que tienen escamas y suelen poner huevos con cáscara dura.",
       "ejemplos": [
         {
+          "id_general":27,
           "id": 1,
           "nombre_comun": "Cocodrilo del Nilo",
           "nombre_cientifico": "Crocodylus niloticus",
@@ -199,6 +347,7 @@
           "imagen": "https://example.com/cocodrilo_nilo.jpg"
         },
         {
+          "id_general":28,
           "id": 2,
           "nombre_comun": "Iguana verde",
           "nombre_cientifico": "Iguana iguana",
@@ -208,6 +357,66 @@
           "descripcion": "Reptil arbóreo de color verde que puede alcanzar hasta 2 metros de longitud.",
           "peligro_extincion": "No amenazado",
           "imagen": "https://example.com/iguana_verde.jpg"
+        },
+        {
+          "id_general":29,
+          "id": 3,
+          "nombre_comun": "Dragón de Komodo",
+          "nombre_cientifico": "Varanus komodoensis",
+          "familia": "Varanidae",
+          "habitat": "Islas de Indonesia como Komodo y Rinca",
+          "dieta": "Carnívora",
+          "descripcion": "El lagarto más grande del mundo, con un tamaño de hasta 3 metros.",
+          "peligro_extincion": "En peligro",
+          "imagen": "https://example.com/dragon_komodo.jpg"
+        },
+        {
+          "id_general":30,
+          "id": 4,
+          "nombre_comun": "Camaleón pantera",
+          "nombre_cientifico": "Furcifer pardalis",
+          "familia": "Chamaeleonidae",
+          "habitat": "Bosques tropicales de Madagascar",
+          "dieta": "Insectívora",
+          "descripcion": "Reptil conocido por su capacidad de cambiar de color y sus ojos independientes.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/camaleon_pantera.jpg"
+        },
+        {
+          "id_general":31,
+          "id": 5,
+          "nombre_comun": "Serpiente coral",
+          "nombre_cientifico": "Micrurus fulvius",
+          "familia": "Elapidae",
+          "habitat": "Bosques y matorrales de América Central y del Sur",
+          "dieta": "Carnívora",
+          "descripcion": "Serpiente venenosa con un patrón distintivo de anillos rojos, amarillos y negros.",
+          "peligro_extincion": "No evaluada",
+          "imagen": "https://example.com/serpiente_coral.jpg"
+        },
+        {
+          "id_general":32,
+          "id": 6,
+          "nombre_comun": "Caimán del Orinoco",
+          "nombre_cientifico": "Crocodylus intermedius",
+          "familia": "Crocodylidae",
+          "habitat": "Ríos y humedales de Venezuela y Colombia",
+          "dieta": "Carnívora",
+          "descripcion": "Uno de los caimanes más grandes, llegando a medir hasta 5 metros.",
+          "peligro_extincion": "En peligro crítico",
+          "imagen": "https://example.com/caiman_orinoco.jpg"
+        },
+        {
+          "id_general":33,
+          "id": 7,
+          "nombre_comun": "Tortuga de caparazón blando de Shanghái",
+          "nombre_cientifico": "Pelodiscus sinensis",
+          "familia": "Trionychidae",
+          "habitat": "Ríos, lagos y estanques de Asia oriental",
+          "dieta": "Omnívora",
+          "descripcion": "Tortuga con un caparazón suave y flexible, adaptada a la vida acuática.",
+          "peligro_extincion": "Vulnerable",
+          "imagen": "https://example.com/tortuga_caparazon_blando.jpg"
         }
       ]
     },
@@ -216,6 +425,7 @@
       "descripcion": "Animales acuáticos vertebrados, generalmente de sangre fría, que respiran a través de branquias y poseen aletas para nadar.",
       "ejemplos": [
         {
+          "id_general":34,
           "id": 1,
           "nombre_comun": "Pez payaso",
           "nombre_cientifico": "Amphiprioninae",
@@ -227,6 +437,7 @@
           "imagen": "https://example.com/pez_payaso.jpg"
         },
         {
+          "id_general":35,
           "id": 2,
           "nombre_comun": "Tiburón blanco",
           "nombre_cientifico": "Carcharodon carcharias",
@@ -236,8 +447,191 @@
           "descripcion": "Depredador marino conocido por su tamaño y velocidad.",
           "peligro_extincion": "Vulnerable",
           "imagen": "https://example.com/tiburon_blanco.jpg"
+        },
+        {
+          "id_general":36,
+          "id": 3,
+          "nombre_comun": "Pez león",
+          "nombre_cientifico": "Pterois volitans",
+          "familia": "Scorpaenidae",
+          "habitat": "Arrecifes de coral en el océano Índico y Pacífico",
+          "dieta": "Carnívora",
+          "descripcion": "Pez de colores vivos con largas aletas espinosas venenosas.",
+          "peligro_extincion": "Preocupación menor",
+          "imagen": "https://example.com/pez_leon.jpg"
+        },
+        {
+          "id_general":37,
+          "id": 4,
+          "nombre_comun": "Pez betta",
+          "nombre_cientifico": "Betta splendens",
+          "familia": "Osphronemidae",
+          "habitat": "Arroyos y arrozales en el sudeste asiático",
+          "dieta": "Omnívora",
+          "descripcion": "Famoso por sus colores brillantes y comportamiento territorial.",
+          "peligro_extincion": "Vulnerable",
+          "imagen": "https://example.com/pez_betta.jpg"
+        },
+        {
+          "id_general":38,
+          "id": 5,
+          "nombre_comun": "Esturión beluga",
+          "nombre_cientifico": "Huso huso",
+          "familia": "Acipenseridae",
+          "habitat": "Ríos y mares del este de Europa y Asia occidental",
+          "dieta": "Carnívora",
+          "descripcion": "Pez grande conocido por sus huevas, utilizadas para producir caviar.",
+          "peligro_extincion": "En peligro crítico",
+          "imagen": "https://example.com/esturion_beluga.jpg"
+        },
+        {
+          "id_general":39,
+          "id": 6,
+          "nombre_comun": "Pez mandarín",
+          "nombre_cientifico": "Synchiropus splendidus",
+          "familia": "Callionymidae",
+          "habitat": "Arrecifes de coral en el océano Pacífico occidental",
+          "dieta": "Carnívora",
+          "descripcion": "Pez de colores iridiscentes, popular en acuarios marinos.",
+          "peligro_extincion": "No evaluada",
+          "imagen": "https://example.com/pez_mandarin.jpg"
+        },
+        {
+          "id_general":40,
+          "id": 7,
+          "nombre_comun": "Pez remo",
+          "nombre_cientifico": "Regalecus glesne",
+          "familia": "Regalecidae",
+          "habitat": "Aguas profundas de todos los océanos",
+          "dieta": "Planktívora",
+          "descripcion": "El pez óseo más largo del mundo, alcanzando hasta 11 metros.",
+          "peligro_extincion": "No evaluada",
+          "imagen": "https://example.com/pez_remo.jpg"
         }
       ]
     }    
+  ],
+  "invertebrados": [
+    {
+      "clase": "Arácnidos",
+      "descripcion": "Invertebrados con ocho patas, cuerpo dividido en dos partes y glándulas productoras de veneno en muchas especies.",
+      "ejemplos": [
+        {
+          "id_general":1,
+          "id": 1,
+          "nombre_comun": "Araña tarántula",
+          "nombre_cientifico": "Theraphosa blondi",
+          "familia": "Theraphosidae",
+          "habitat": "Selvas tropicales de América del Sur",
+          "dieta": "Carnívora",
+          "descripcion": "Es la araña más grande del mundo, conocida por su tamaño y pelos urticantes.",
+          "peligro_extincion": "No en peligro",
+          "imagen": "https://example.com/tarantula.jpg"
+        },
+        {
+          "id_general":2,
+          "id": 2,
+          "nombre_comun": "Escorpión amarillo",
+          "nombre_cientifico": "Androctonus australis",
+          "familia": "Buthidae",
+          "habitat": "Desiertos y zonas cálidas de África y Asia",
+          "dieta": "Carnívora",
+          "descripcion": "Escorpión peligroso, conocido por su veneno potente que puede ser mortal para los humanos.",
+          "peligro_extincion": "No en peligro",
+          "imagen": "https://example.com/escorpion.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Insectos",
+      "descripcion": "Invertebrados con tres partes del cuerpo (cabeza, tórax y abdomen), seis patas y a menudo alas.",
+      "ejemplos": [
+        {
+          "id_general":3,
+          "id": 1,
+          "nombre_comun": "Mariposa Monarca",
+          "nombre_cientifico": "Danaus plexippus",
+          "familia": "Nymphalidae",
+          "habitat": "Áreas templadas de América del Norte y migración hacia México",
+          "dieta": "Nectar de flores",
+          "descripcion": "Mariposa famosa por su migración anual de miles de kilómetros.",
+          "peligro_extincion": "Casi amenazada",
+          "imagen": "https://example.com/mariposa_monarca.jpg"
+        },
+        {
+          "id_general":4,
+          "id": 2,
+          "nombre_comun": "Abeja europea",
+          "nombre_cientifico": "Apis mellifera",
+          "familia": "Apidae",
+          "habitat": "Zonas rurales y urbanas en todo el mundo",
+          "dieta": "Nectar y polen",
+          "descripcion": "Insecto polinizador vital para muchos ecosistemas y la agricultura.",
+          "peligro_extincion": "En peligro",
+          "imagen": "https://example.com/abeja.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Cefalópodos",
+      "descripcion": "Moluscos marinos con cuerpos blandos y tentáculos, conocidos por su alta inteligencia y habilidades de camuflaje.",
+      "ejemplos": [
+        {
+          "id_general":5,
+          "id": 1,
+          "nombre_comun": "Pulpo común",
+          "nombre_cientifico": "Octopus vulgaris",
+          "familia": "Octopodidae",
+          "habitat": "Aguas costeras del Atlántico y Mediterráneo",
+          "dieta": "Carnívora (crustáceos, peces)",
+          "descripcion": "Pulpo conocido por su inteligencia, capacidad para cambiar de color y habilidades para resolver problemas.",
+          "peligro_extincion": "No en peligro",
+          "imagen": "https://example.com/pulpo.jpg"
+        },
+        {
+          "id_general":6,
+          "id": 2,
+          "nombre_comun": "Calamar gigante",
+          "nombre_cientifico": "Architeuthis dux",
+          "familia": "Architeuthidae",
+          "habitat": "Profundidades marinas del océano",
+          "dieta": "Carnívora (peces y otros cefalópodos)",
+          "descripcion": "Uno de los cefalópodos más grandes, con tentáculos que pueden alcanzar hasta 10 metros de largo.",
+          "peligro_extincion": "Desconocido",
+          "imagen": "https://example.com/calamar_gigante.jpg"
+        }
+      ]
+    },
+    {
+      "clase": "Equinodermos",
+      "descripcion": "Invertebrados marinos con simetría radial, una piel espinosa y un sistema vascular acuático.",
+      "ejemplos": [
+        {
+          "id_general":7,
+          "id": 1,
+          "nombre_comun": "Estrella de mar común",
+          "nombre_cientifico": "Asterias rubens",
+          "familia": "Asteriidae",
+          "habitat": "Costas rocosas del Atlántico Norte",
+          "dieta": "Carnívora (moluscos, crustáceos)",
+          "descripcion": "Estrella de mar de cinco brazos que se alimenta de moluscos y otros pequeños invertebrados.",
+          "peligro_extincion": "No en peligro",
+          "imagen": "https://example.com/estrella_de_mar.jpg"
+        },
+        {
+          "id_general":8,
+          "id": 2,
+          "nombre_comun": "Erizo de mar púrpura",
+          "nombre_cientifico": "Strongylocentrotus purpuratus",
+          "familia": "Strongylocentrotidae",
+          "habitat": "Costas rocosas y fondos marinos del Pacífico Norte",
+          "dieta": "Herbívora (algas)",
+          "descripcion": "Erizo marino con espinas largas y venenosas que se alimenta de algas y plantas marinas.",
+          "peligro_extincion": "No en peligro",
+          "imagen": "https://example.com/erizo_de_mar.jpg"
+        }
+      ]
+    }
   ]
+
 }
