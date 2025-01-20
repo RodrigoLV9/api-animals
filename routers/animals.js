@@ -5,13 +5,19 @@ animalsRouter.use(express.json())
 function quitarTildes(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
-animalsRouter.get('/:clase',(req,res)=>{
-    const clase=req.params.clase
+animalsRouter.get('/:class',(req,res)=>{
+    const clase=req.params.class
     const animalClass=data1.vertebrados.find((item)=>{
          const newItem=quitarTildes(item.clase.toLowerCase())
          return newItem==clase.toLowerCase()
         })
-    res.send(animalClass)
+    if (animalClass) {
+        res.send(animalClass);
+    } else {
+        res.status(404).send({ error: 'Class not found' });
+    }
 })
-
+animalsRouter.use((req,res)=>{
+    res.status(404).send('<h1>Error 404 (Not Found)</h1>')
+})
 module.exports=animalsRouter
