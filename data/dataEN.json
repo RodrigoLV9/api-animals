@@ -1,0 +1,633 @@
+{
+    "vertebrados": [
+      {
+        "clase": "Mammals",
+        "descripcion": "Warm-blooded animals with fur and mammary glands.",
+        "ejemplos": [{
+            "id_general": 1,
+            "id": 1,
+            "nombre_comun": "Human",
+            "nombre_cientifico": "Homo sapiens",
+            "familia": "Hominidae",
+            "habitat": "Cities, rural areas, and various natural environments",
+            "dieta": "Omnivorous",
+            "descripcion": "Primate species characterized by its intelligence and ability to modify the environment.",
+            "peligro_extincion": "Not endangered",
+            "imagen": "https://example.com/humano.jpg"
+          },
+          {
+            "id_general": 2,
+            "id": 2,
+            "nombre_comun": "Lion",
+            "nombre_cientifico": "Panthera leo",
+            "familia": "Felidae",
+            "habitat": "Savannas and grasslands of sub-Saharan Africa",
+            "dieta": "Carnivorous",
+            "descripcion": "Large feline known as the 'king of the jungle', with a distinctive mane in males.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/leon.jpg"
+          },
+          {
+            "id_general": 3,
+            "id": 3,
+            "nombre_comun": "Elephant",
+            "nombre_cientifico": "Loxodonta africana",
+            "familia": "Elephantidae",
+            "habitat": "Savannas, forests, and grasslands",
+            "dieta": "Herbivorous",
+            "descripcion": "The largest land animal, known for its intelligence, memory, and social structure.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/elefante.jpg"
+          },
+          {
+            "id_general": 4,
+            "id": 4,
+            "nombre_comun": "Tiger",
+            "nombre_cientifico": "Panthera tigris",
+            "familia": "Felidae",
+            "habitat": "Forests, grasslands, and wetlands",
+            "dieta": "Carnivorous",
+            "descripcion": "Large feline known for its striped coat and powerful build.",
+            "peligro_extincion": "Endangered",
+            "imagen": "https://example.com/tigre.jpg"
+          },
+          {
+            "id_general": 5,
+            "id": 5,
+            "nombre_comun": "Kangaroo",
+            "nombre_cientifico": "Macropus",
+            "familia": "Macropodidae",
+            "habitat": "Grasslands and forests of Australia",
+            "dieta": "Herbivorous",
+            "descripcion": "Marsupial known for its powerful hind legs and ability to hop.",
+            "peligro_extincion": "Least concern",
+            "imagen": "https://example.com/canguro.jpg"
+          },
+          {
+            "id_general": 6,
+            "id": 6,
+            "nombre_comun": "Panda",
+            "nombre_cientifico": "Ailuropoda melanoleuca",
+            "familia": "Ursidae",
+            "habitat": "Mountainous regions of central China",
+            "dieta": "Herbivorous",
+            "descripcion": "Large bear known for its distinctive black and white coat and diet primarily consisting of bamboo.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/panda.jpg"
+          },
+          {
+            "id_general": 7,
+            "id": 7,
+            "nombre_comun": "Giraffe",
+            "nombre_cientifico": "Giraffa camelopardalis",
+            "familia": "Giraffidae",
+            "habitat": "Savannas and open woodlands of Africa",
+            "dieta": "Herbivorous",
+            "descripcion": "Tallest land animal known for its long neck and legs, and distinctive coat patterns.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/jirafa.jpg"
+          },
+          {
+            "id_general": 8,
+            "id": 8,
+            "nombre_comun": "Dog",
+            "nombre_cientifico": "Canis lupus familiaris",
+            "familia": "Canidae",
+            "habitat": "Domestic and urban environments worldwide",
+            "dieta": "Omnivorous",
+            "descripcion": "The most common domestic animal, known for its loyalty and variety of breeds.",
+            "peligro_extincion": "Not endangered",
+            "imagen": "https://example.com/perro.jpg"
+          }]
+      },
+      {
+        "clase": "Birds",
+        "descripcion": "Warm-blooded animals with feathers and wings.",
+        "ejemplos": [
+            {
+                "id_general": 9,
+                "id": 1,
+                "nombre_comun": "Eagle",
+                "nombre_cientifico": "Aquila chrysaetos",
+                "familia": "Accipitridae",
+                "habitat": "Mountains, grasslands, and open regions",
+                "dieta": "Carnivorous",
+                "descripcion": "Large bird of prey with excellent vision, known for its ability to hunt large prey.",
+                "peligro_extincion": "Least concern",
+                "imagen": "https://example.com/aguila.jpg"
+              },
+              {
+                "id_general": 10,
+                "id": 2,
+                "nombre_comun": "Emperor Penguin",
+                "nombre_cientifico": "Aptenodytes forsteri",
+                "familia": "Spheniscidae",
+                "habitat": "Antarctic regions",
+                "dieta": "Carnivorous (fish, squid, and krill)",
+                "descripcion": "The largest penguin species, adapted to extremely cold climates, famous for its breeding colonies.",
+                "peligro_extincion": "Near threatened",
+                "imagen": "https://example.com/pinguino.jpg"
+              },
+              {
+                "id_general": 11,
+                "id": 3,
+                "nombre_comun": "Hummingbird",
+                "nombre_cientifico": "Trochilidae",
+                "familia": "Trochilidae",
+                "habitat": "Forests, gardens, and areas with flowers in the Americas",
+                "dieta": "Nectarivorous (flower nectar)",
+                "descripcion": "Small bird known for its rapid wing flapping and ability to hover while feeding on nectar.",
+                "peligro_extincion": "Not endangered",
+                "imagen": "https://example.com/colibri.jpg"
+              },
+              {
+                "id_general": 12,
+                "id": 4,
+                "nombre_comun": "Eurasian Eagle-Owl",
+                "nombre_cientifico": "Bubo bubo",
+                "familia": "Strigidae",
+                "habitat": "Forests, mountains, and open areas of Eurasia",
+                "dieta": "Carnivorous",
+                "descripcion": "One of the largest owl species, with large eyes and excellent night vision.",
+                "peligro_extincion": "Least concern",
+                "imagen": "https://example.com/buho_real.jpg"
+              },
+              {
+                "id_general": 13,
+                "id": 5,
+                "nombre_comun": "Mallard Duck",
+                "nombre_cientifico": "Anas platyrhynchos",
+                "familia": "Anatidae",
+                "habitat": "Wetlands, rivers, and lakes worldwide",
+                "dieta": "Omnivorous",
+                "descripcion": "A very common duck species, known for the bright green head of males.",
+                "peligro_extincion": "Not endangered",
+                "imagen": "https://example.com/pato_mallard.jpg"
+              },
+              {
+                "id_general": 14,
+                "id": 6,
+                "nombre_comun": "Sulphur-crested Cockatoo",
+                "nombre_cientifico": "Cacatua galerita",
+                "familia": "Cacatuidae",
+                "habitat": "Forests and savannas of Australia and Indonesia",
+                "dieta": "Omnivorous",
+                "descripcion": "Bird known for its distinctive yellow crest and high intelligence.",
+                "peligro_extincion": "Least concern",
+                "imagen": "https://example.com/cacatua_cresta_amarilla.jpg"
+              },
+              {
+                "id_general": 15,
+                "id": 7,
+                "nombre_comun": "Resplendent Quetzal",
+                "nombre_cientifico": "Pharomachrus mocinno",
+                "familia": "Trogonidae",
+                "habitat": "Cloud forests of Central America",
+                "dieta": "Frugivorous",
+                "descripcion": "A brightly colored bird, a symbol of freedom in Mesoamerican culture.",
+                "peligro_extincion": "Near threatened",
+                "imagen": "https://example.com/quetzal_resplandeciente.jpg"
+              },
+              {
+                "id_general": 16,
+                "id": 8,
+                "nombre_comun": "Magnificent Bird-of-Paradise",
+                "nombre_cientifico": "Cicinnurus magnificus",
+                "familia": "Paradisaeidae",
+                "habitat": "Tropical forests of New Guinea",
+                "dieta": "Frugivorous",
+                "descripcion": "Famous for its elaborate mating rituals and unique plumage.",
+                "peligro_extincion": "Least concern",
+                "imagen": "https://example.com/ave_paraiso.jpg"
+              },
+              {
+                "id_general": 17,
+                "id": 9,
+                "nombre_comun": "Southern Cassowary",
+                "nombre_cientifico": "Casuarius casuarius",
+                "familia": "Casuariidae",
+                "habitat": "Tropical forests of Australia and New Guinea",
+                "dieta": "Frugivorous",
+                "descripcion": "Large flightless bird with a distinctive bony casque on its head.",
+                "peligro_extincion": "Vulnerable",
+                "imagen": "https://example.com/casuario_austral.jpg"
+              },
+              {
+                "id_general": 18,
+                "id": 10,
+                "nombre_comun": "Toco Toucan",
+                "nombre_cientifico": "Ramphastos toco",
+                "familia": "Ramphastidae",
+                "habitat": "Tropical rainforests of South America",
+                "dieta": "Frugivorous",
+                "descripcion": "Bird known for its large, brightly colored bill.",
+                "peligro_extincion": "Least concern",
+                "imagen": "https://example.com/tucan_toco.jpg"
+              },
+              {
+                "id_general": 19,
+                "id": 11,
+                "nombre_comun": "Harpy Eagle",
+                "nombre_cientifico": "Harpia harpyja",
+                "familia": "Accipitridae",
+                "habitat": "Tropical rainforests of Central and South America",
+                "dieta": "Carnivorous",
+                "descripcion": "One of the largest eagles in the world, with incredibly strong talons.",
+                "peligro_extincion": "Near threatened",
+                "imagen": "https://example.com/harpia.jpg"
+              }              
+      ]
+      },
+      {
+        "clase": "Amphibians",
+        "descripcion": "Cold-blooded vertebrate animals that can live both in water and on land during different stages of their life.",
+        "ejemplos": [
+          {
+            "id_general": 20,
+            "id": 1,
+            "nombre_comun": "Frog",
+            "nombre_cientifico": "Anura",
+            "familia": "Ranidae",
+            "habitat": "Wetlands, forests, and grasslands",
+            "dieta": "Carnivorous",
+            "descripcion": "Small amphibian known for its jumping abilities, croaking sounds, and smooth, moist skin.",
+            "peligro_extincion": "Least concern",
+            "imagen": "https://example.com/frog.jpg"
+          },
+          {
+            "id_general": 21,
+            "id": 2,
+            "nombre_comun": "Salamander",
+            "nombre_cientifico": "Caudata",
+            "familia": "Salamandridae",
+            "habitat": "Forests, wetlands, and streams",
+            "dieta": "Carnivorous",
+            "descripcion": "Amphibian with a lizard-like appearance, known for its ability to regenerate lost body parts.",
+            "peligro_extincion": "Least concern",
+            "imagen": "https://example.com/salamander.jpg"
+          },
+          {
+            "id_general": 22,
+            "id": 3,
+            "nombre_comun": "Newt",
+            "nombre_cientifico": "Salamandridae",
+            "familia": "Salamandridae",
+            "habitat": "Wetlands, ponds, and streams",
+            "dieta": "Carnivorous",
+            "descripcion": "Small amphibian similar to a salamander, known for its bright colors and toxic skin secretions.",
+            "peligro_extincion": "Least concern",
+            "imagen": "https://example.com/newt.jpg"
+          },
+          {
+            "id_general": 23,
+            "id": 4,
+            "nombre_comun": "Toad",
+            "nombre_cientifico": "Bufonidae",
+            "familia": "Bufonidae",
+            "habitat": "Forests, grasslands, and gardens",
+            "dieta": "Carnivorous",
+            "descripcion": "Amphibian known for its dry, warty skin and ability to secrete toxins.",
+            "peligro_extincion": "Least concern",
+            "imagen": "https://example.com/toad.jpg"
+          },
+          {
+            "id_general": 24,
+            "id": 5,
+            "nombre_comun": "Axolotl",
+            "nombre_cientifico": "Ambystoma mexicanum",
+            "familia": "Ambystomatidae",
+            "habitat": "Lakes and canals of Mexico",
+            "dieta": "Carnivorous",
+            "descripcion": "Unique amphibian known for its ability to regenerate limbs and retain larval features throughout its life.",
+            "peligro_extincion": "Critically endangered",
+            "imagen": "https://example.com/axolotl.jpg"
+          },
+          {
+            "id_general": 25,
+            "id": 6,
+            "nombre_comun": "Caecilian",
+            "nombre_cientifico": "Gymnophiona",
+            "familia": "Caeciliidae",
+            "habitat": "Tropical forests and wetlands",
+            "dieta": "Carnivorous",
+            "descripcion": "Legless amphibian resembling a worm or snake, known for its burrowing lifestyle.",
+            "peligro_extincion": "Least concern",
+            "imagen": "https://example.com/caecilian.jpg"
+          },
+          {
+            "id_general": 26,
+            "id": 7,
+            "nombre_comun": "Crested Newt",
+            "nombre_cientifico": "Triturus cristatus",
+            "familia": "Salamandridae",
+            "habitat": "Ponds, wetlands, and forests",
+            "dieta": "Carnivorous",
+            "descripcion": "Newt known for its distinctive crest along its back, prominent in males during the breeding season.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/crested_newt.jpg"
+          }
+        ]
+      },
+      {
+        "clase": "Reptiles",
+        "descripcion": "Cold-blooded vertebrate animals that have scales and usually lay eggs with hard shells.",
+        "ejemplos": [
+          {
+            "id_general": 27,
+            "id": 1,
+            "nombre_comun": "Nile Crocodile",
+            "nombre_cientifico": "Crocodylus niloticus",
+            "familia": "Crocodylidae",
+            "habitat": "Rivers and lakes of Africa",
+            "dieta": "Carnivorous",
+            "descripcion": "Large and dangerous reptile known for its strength and aggressive behavior.",
+            "peligro_extincion": "Least Concern",
+            "imagen": "https://example.com/cocodrilo_nilo.jpg"
+          },
+          {
+            "id_general": 28,
+            "id": 2,
+            "nombre_comun": "Green Iguana",
+            "nombre_cientifico": "Iguana iguana",
+            "familia": "Iguanidae",
+            "habitat": "Tropical forests of Central and South America",
+            "dieta": "Herbivorous",
+            "descripcion": "Arboreal reptile with a green color that can reach up to 2 meters in length.",
+            "peligro_extincion": "Not Threatened",
+            "imagen": "https://example.com/iguana_verde.jpg"
+          },
+          {
+            "id_general": 29,
+            "id": 3,
+            "nombre_comun": "Komodo Dragon",
+            "nombre_cientifico": "Varanus komodoensis",
+            "familia": "Varanidae",
+            "habitat": "Islands of Indonesia such as Komodo and Rinca",
+            "dieta": "Carnivorous",
+            "descripcion": "The largest lizard in the world, reaching up to 3 meters in size.",
+            "peligro_extincion": "Endangered",
+            "imagen": "https://example.com/dragon_komodo.jpg"
+          },
+          {
+            "id_general": 30,
+            "id": 4,
+            "nombre_comun": "Panther Chameleon",
+            "nombre_cientifico": "Furcifer pardalis",
+            "familia": "Chamaeleonidae",
+            "habitat": "Tropical forests of Madagascar",
+            "dieta": "Insectivorous",
+            "descripcion": "Reptile known for its ability to change color and its independent eyes.",
+            "peligro_extincion": "Least Concern",
+            "imagen": "https://example.com/camaleon_pantera.jpg"
+          },
+          {
+            "id_general": 31,
+            "id": 5,
+            "nombre_comun": "Coral Snake",
+            "nombre_cientifico": "Micrurus fulvius",
+            "familia": "Elapidae",
+            "habitat": "Forests and scrublands of Central and South America",
+            "dieta": "Carnivorous",
+            "descripcion": "Venomous snake with a distinctive pattern of red, yellow, and black rings.",
+            "peligro_extincion": "Not Evaluated",
+            "imagen": "https://example.com/serpiente_coral.jpg"
+          },
+          {
+            "id_general": 32,
+            "id": 6,
+            "nombre_comun": "Orinoco Crocodile",
+            "nombre_cientifico": "Crocodylus intermedius",
+            "familia": "Crocodylidae",
+            "habitat": "Rivers and wetlands of Venezuela and Colombia",
+            "dieta": "Carnivorous",
+            "descripcion": "One of the largest crocodiles, reaching up to 5 meters in length.",
+            "peligro_extincion": "Critically Endangered",
+            "imagen": "https://example.com/caiman_orinoco.jpg"
+          },
+          {
+            "id_general": 33,
+            "id": 7,
+            "nombre_comun": "Shanghai Softshell Turtle",
+            "nombre_cientifico": "Pelodiscus sinensis",
+            "familia": "Trionychidae",
+            "habitat": "Rivers, lakes, and ponds of East Asia",
+            "dieta": "Omnivorous",
+            "descripcion": "Turtle with a soft and flexible shell, adapted to aquatic life.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/tortuga_caparazon_blando.jpg"
+          }
+        ]
+      },
+      {
+        "clase": "Fishes",
+        "descripcion": "Aquatic vertebrate animals, usually cold-blooded, that breathe through gills and have fins for swimming.",
+        "ejemplos": [
+          {
+            "id_general": 34,
+            "id": 1,
+            "nombre_comun": "Clownfish",
+            "nombre_cientifico": "Amphiprioninae",
+            "familia": "Pomacentridae",
+            "habitat": "Coral reefs in the Indo-Pacific",
+            "dieta": "Omnivorous",
+            "descripcion": "Brightly colored fish that lives in symbiosis with sea anemones.",
+            "peligro_extincion": "Least Concern",
+            "imagen": "https://example.com/pez_payaso.jpg"
+          },
+          {
+            "id_general": 35,
+            "id": 2,
+            "nombre_comun": "Great White Shark",
+            "nombre_cientifico": "Carcharodon carcharias",
+            "familia": "Lamnidae",
+            "habitat": "Temperate and tropical oceans",
+            "dieta": "Carnivorous",
+            "descripcion": "Marine predator known for its size and speed.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/tiburon_blanco.jpg"
+          },
+          {
+            "id_general": 36,
+            "id": 3,
+            "nombre_comun": "Lionfish",
+            "nombre_cientifico": "Pterois volitans",
+            "familia": "Scorpaenidae",
+            "habitat": "Coral reefs in the Indian and Pacific Oceans",
+            "dieta": "Carnivorous",
+            "descripcion": "Vividly colored fish with long venomous spiny fins.",
+            "peligro_extincion": "Least Concern",
+            "imagen": "https://example.com/pez_leon.jpg"
+          },
+          {
+            "id_general": 37,
+            "id": 4,
+            "nombre_comun": "Betta Fish",
+            "nombre_cientifico": "Betta splendens",
+            "familia": "Osphronemidae",
+            "habitat": "Streams and rice paddies in Southeast Asia",
+            "dieta": "Omnivorous",
+            "descripcion": "Famous for its bright colors and territorial behavior.",
+            "peligro_extincion": "Vulnerable",
+            "imagen": "https://example.com/pez_betta.jpg"
+          },
+          {
+            "id_general": 38,
+            "id": 5,
+            "nombre_comun": "Beluga Sturgeon",
+            "nombre_cientifico": "Huso huso",
+            "familia": "Acipenseridae",
+            "habitat": "Rivers and seas of Eastern Europe and Western Asia",
+            "dieta": "Carnivorous",
+            "descripcion": "Large fish known for its roe, used to produce caviar.",
+            "peligro_extincion": "Critically Endangered",
+            "imagen": "https://example.com/esturion_beluga.jpg"
+          },
+          {
+            "id_general": 39,
+            "id": 6,
+            "nombre_comun": "Mandarinfish",
+            "nombre_cientifico": "Synchiropus splendidus",
+            "familia": "Callionymidae",
+            "habitat": "Coral reefs in the Western Pacific Ocean",
+            "dieta": "Carnivorous",
+            "descripcion": "Fish with iridescent colors, popular in marine aquariums.",
+            "peligro_extincion": "Not Evaluated",
+            "imagen": "https://example.com/pez_mandarin.jpg"
+          },
+          {
+            "id_general": 40,
+            "id": 7,
+            "nombre_comun": "Oarfish",
+            "nombre_cientifico": "Regalecus glesne",
+            "familia": "Regalecidae",
+            "habitat": "Deep waters of all oceans",
+            "dieta": "Planktivorous",
+            "descripcion": "The longest bony fish in the world, reaching up to 11 meters.",
+            "peligro_extincion": "Not Evaluated",
+            "imagen": "https://example.com/pez_remo.jpg"
+          }
+        ]
+      }
+    ],
+    "invertebrados": [{
+        "clase": "Arácnidos",
+        "descripcion": "Invertebrates with eight legs, a body divided into two parts, and venom-producing glands in many species.",
+        "ejemplos": [
+          {
+            "id_general": 1,
+            "id": 1,
+            "nombre_comun": "Tarantula spider",
+            "nombre_cientifico": "Theraphosa blondi",
+            "familia": "Theraphosidae",
+            "habitat": "Rainforests of South America",
+            "dieta": "Carnivorous",
+            "descripcion": "The largest spider in the world, known for its size and urticating hairs.",
+            "peligro_extincion": "Not endangered",
+            "imagen": "https://example.com/tarantula.jpg"
+          },
+          {
+            "id_general": 2,
+            "id": 2,
+            "nombre_comun": "Yellow scorpion",
+            "nombre_cientifico": "Androctonus australis",
+            "familia": "Buthidae",
+            "habitat": "Deserts and warm regions of Africa and Asia",
+            "dieta": "Carnivorous",
+            "descripcion": "A dangerous scorpion, known for its potent venom that can be lethal to humans.",
+            "peligro_extincion": "Not endangered",
+            "imagen": "https://example.com/escorpion.jpg"
+          }
+        ]
+      },
+      {
+        "clase": "Insectos",
+        "descripcion": "Invertebrates with three body parts (head, thorax, and abdomen), six legs, and often wings.",
+        "ejemplos": [
+          {
+            "id_general": 3,
+            "id": 1,
+            "nombre_comun": "Monarch butterfly",
+            "nombre_cientifico": "Danaus plexippus",
+            "familia": "Nymphalidae",
+            "habitat": "Temperate areas of North America and migration to Mexico",
+            "dieta": "Flower nectar",
+            "descripcion": "A butterfly famous for its annual migration spanning thousands of kilometers.",
+            "peligro_extincion": "Near threatened",
+            "imagen": "https://example.com/mariposa_monarca.jpg"
+          },
+          {
+            "id_general": 4,
+            "id": 2,
+            "nombre_comun": "European bee",
+            "nombre_cientifico": "Apis mellifera",
+            "familia": "Apidae",
+            "habitat": "Rural and urban areas worldwide",
+            "dieta": "Nectar and pollen",
+            "descripcion": "A pollinating insect vital to many ecosystems and agriculture.",
+            "peligro_extincion": "Endangered",
+            "imagen": "https://example.com/abeja.jpg"
+            }
+            ]
+         },
+         {
+            "clase": "Cefalópodos",
+            "descripcion": "Marine mollusks with soft bodies and tentacles, known for their high intelligence and camouflage abilities.",
+            "ejemplos": [
+              {
+                "id_general": 5,
+                "id": 1,
+                "nombre_comun": "Common octopus",
+                "nombre_cientifico": "Octopus vulgaris",
+                "familia": "Octopodidae",
+                "habitat": "Coastal waters of the Atlantic and Mediterranean",
+                "dieta": "Carnivorous (crustaceans, fish)",
+                "descripcion": "An octopus known for its intelligence, ability to change color, and problem-solving skills.",
+                "peligro_extincion": "Not endangered",
+                "imagen": "https://example.com/pulpo.jpg"
+              },
+              {
+                "id_general": 6,
+                "id": 2,
+                "nombre_comun": "Giant squid",
+                "nombre_cientifico": "Architeuthis dux",
+                "familia": "Architeuthidae",
+                "habitat": "Deep ocean waters",
+                "dieta": "Carnivorous (fish and other cephalopods)",
+                "descripcion": "One of the largest cephalopods, with tentacles that can reach up to 10 meters long.",
+                "peligro_extincion": "Unknown",
+                "imagen": "https://example.com/calamar_gigante.jpg"
+              }
+            ]
+          },
+          {
+            "clase": "Equinodermos",
+            "descripcion": "Marine invertebrates with radial symmetry, spiny skin, and a water vascular system.",
+            "ejemplos": [
+              {
+                "id_general": 7,
+                "id": 1,
+                "nombre_comun": "Common starfish",
+                "nombre_cientifico": "Asterias rubens",
+                "familia": "Asteriidae",
+                "habitat": "Rocky shores of the North Atlantic",
+                "dieta": "Carnivorous (mollusks, crustaceans)",
+                "descripcion": "A five-armed starfish that feeds on mollusks and other small invertebrates.",
+                "peligro_extincion": "Not endangered",
+                "imagen": "https://example.com/estrella_de_mar.jpg"
+              },
+              {
+                "id_general": 8,
+                "id": 2,
+                "nombre_comun": "Purple sea urchin",
+                "nombre_cientifico": "Strongylocentrotus purpuratus",
+                "familia": "Strongylocentrotidae",
+                "habitat": "Rocky coasts and seabeds of the North Pacific",
+                "dieta": "Herbivorous (algae)",
+                "descripcion": "A sea urchin with long, venomous spines that feeds on algae and marine plants.",
+                "peligro_extincion": "Not endangered",
+                "imagen": "https://example.com/erizo_de_mar.jpg"
+              }
+            ]
+          }
+        ]
+}
