@@ -510,7 +510,7 @@
       }
     ],
     "invertebrados": [{
-        "clase": "Arácnidos",
+        "clase": "Arachnids",
         "descripcion": "Invertebrates with eight legs, a body divided into two parts, and venom-producing glands in many species.",
         "ejemplos": [
           {
@@ -540,7 +540,7 @@
         ]
       },
       {
-        "clase": "Insectos",
+        "clase": "Insects",
         "descripcion": "Invertebrates with three body parts (head, thorax, and abdomen), six legs, and often wings.",
         "ejemplos": [
           {
@@ -570,7 +570,7 @@
             ]
          },
          {
-            "clase": "Cefalópodos",
+            "clase": "Cephalopods",
             "descripcion": "Marine mollusks with soft bodies and tentacles, known for their high intelligence and camouflage abilities.",
             "ejemplos": [
               {
@@ -600,7 +600,7 @@
             ]
           },
           {
-            "clase": "Equinodermos",
+            "clase": "Echinoderms",
             "descripcion": "Marine invertebrates with radial symmetry, spiny skin, and a water vascular system.",
             "ejemplos": [
               {
