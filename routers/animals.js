@@ -1,14 +1,14 @@
 const express=require('express')
 const animalsRouter=express.Router()
-const data1=require('../data/data1.json')
+const dataEN=require('../data/dataEN.json')
 animalsRouter.use(express.json())
 function quitarTildes(str) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 animalsRouter.get('/:class',(req,res)=>{
     const clase=req.params.class
-    const animalClass=data1.vertebrados.find((item)=>{
-         const newItem=quitarTildes(item.clase.toLowerCase())
+    const animalClass=dataEN.vertebrates.find((item)=>{
+         const newItem=quitarTildes(item.class.toLowerCase())
          return newItem==clase.toLowerCase()
         })
     if (animalClass) {
