@@ -34,10 +34,15 @@ const getClassAnimal=(req,res)=>{
     const lang=req.lang
     const data=lang==='es' ? dataES : dataEN
     const clase=req.params.class
-    const animalClass=data.vertebrates.find((item)=>{
+    const classVertebrates=data.vertebrates.find((item)=>{
          const newItem=handleParams(item.class.toLowerCase())
          return newItem==clase.toLowerCase()
         })
+    const classInvertebrates=data.invertebrates.find((item)=>{
+        const newItem=handleParams(item.class.toLowerCase())
+        return newItem==clase.toLowerCase()
+    })
+    const animalClass=[classVertebrates,classInvertebrates].filter((el)=>el!=null)
     if (animalClass) {
         res.send(animalClass);
     } else {
